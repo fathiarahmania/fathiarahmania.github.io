@@ -1,0 +1,366 @@
+html body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  margin: 0;
+  padding: 2px;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+}
+
+.header h1 {
+  font-size: 42px;
+}
+
+.header p {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.header .salam {
+  padding: 10px;
+  text-align: center;
+}
+
+.about {
+  /* border: 1px solid black; */
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .bungkus {
+  /* border: 1px solid red; */
+  width: 75%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.about .bungkus .items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.about .bungkus .items .pict {
+  margin-right: 15px;
+}
+
+.about .bungkus .items a {
+  color: black;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.akademik {
+  margin-top: 15px;
+}
+
+.persnl-skill {
+  margin-top: 15px;
+}
+
+.portflio {
+  margin-top: 15px;
+}
+
+.about .bungkus .items a:hover {
+  color: cadetblue;
+}
+
+.kontent {
+  /* border: 1px solid black; */
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%x;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.judul {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.kontent img {
+  height: 200px;
+  width: 200px;
+}
+
+.judul p {
+  margin: 0;
+  text-align: center;
+}
+
+.judul hr {
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  width: 75px;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.kontent ._isi .isi {
+  /* width: 500px; */
+  margin-top: 35px;
+  font-size: 16px;
+  text-align: center;
+  padding: 0 25px 0 25px;
+}
+
+/* Pendidikan START */
+.pendidikan {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.pendidikan .pendidikan-konten {
+  /* border: 1px solid blue; */
+  width: 85%;
+}
+
+.pendidikan .pendidikan-konten .sekolah {
+  display: flex;
+  height: 265px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.pendidikan .pendidikan-konten .smk {
+  border-right: 5px solid lightblue;
+  align-self: flex-start;
+  height: 70px;
+}
+
+.pendidikan .pendidikan-konten .sarjana {
+  border-left: 5px solid cadetblue;
+  height: 70px;
+  align-self: flex-end;
+}
+
+.icon-school {
+  display: none;
+}
+/* Pendidikan END */
+
+/* Personal Skill START */
+
+.skill {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px 50px 50px;
+}
+
+.skill .konten-skill {
+  width: 85%;
+}
+
+.skill .konten-skill .icon {
+  padding: 15px;
+}
+
+.skill .konten-skill .icon h3 {
+  margin-top: 10px;
+}
+
+.skill .konten-skill .judul {
+  margin: 35px;
+}
+/* Personal Skill END */
+
+/* Portfolio START */
+.portfolio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-konten .isi-portfolio .col-12 {
+  margin-top: 25px;
+}
+
+.portfolio .portfolio-konten {
+  width: 85%;
+}
+
+.detail-portfolio .modal {
+  width: 100%;
+}
+
+.detail-portfolio .modal-content {
+  width: 500px;
+}
+/* Portfolio END */
+.footer {
+  padding: 25px;
+}
+
+.footer hr {
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  width: 150px;
+  height: 2px;
+  border-radius: 10px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+/* Versi Desktop */
+
+@media (min-width: 720px) {
+  html body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .header {
+    margin: 0;
+    padding: 2px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+  }
+
+  .header h1 {
+    font-size: 42px;
+    color: black;
+  }
+
+  .header p {
+    font-family: monospace;
+    font-size: 18px;
+  }
+
+  .header .salam {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about {
+    /* border: 1px solid black; */
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .bungkus {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 75%;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+
+  .about .bungkus .items {
+    display: flex;
+  }
+
+  .about .bungkus .items .pict {
+    margin-right: 15px;
+  }
+
+  .about .bungkus .items a {
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
+  }
+
+  .about .bungkus .items a:hover {
+    color: cadetblue;
+  }
+
+  .kontent {
+    /* border: 1px solid black; */
+    padding-top: 5px;
+    background-color: white;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .judul {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  .kontent img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .judul p {
+    margin-bottom: 0;
+  }
+
+  .judul hr {
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    width: 75px;
+    height: 3px;
+    border-radius: 10px;
+  }
+
+  .kontent ._isi .isi {
+    width: 500px;
+    margin-top: 35px;
+    padding: 0;
+  }
+
+  .kontent ._isi .isi p {
+    font-size: 18px;
+  }
+
+  .pendidikan .pendidikan-konten .sekolah {
+    margin-top: 70px;
+  }
+
+  .footer hr {
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    width: 150px;
+    height: 2px;
+    border-radius: 10px;
+  }
+
+  .footer p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+}
